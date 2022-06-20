@@ -1,0 +1,54 @@
+Function:
+
+def functionName(parameter(s)):
+	"optional docstring"
+	body
+
+def add(x,y):
+	print("result of addition :,(x+y))
+
+def add1(x,y):
+	return(x+y)
+
+add(10,20) => result of addition 30
+
+
+result=add1(10,20) 
+
+result=> 30
+
+print("result of addition :,result)
+
+or 
+
+print("result of addition :,add1(10,20))
+
+
+def greet(name,msg):
+	print("Hello",name+' '+msg)
+
+
+
+scope of variable:
+
+local variable:is that variable which is declared inside the function
+
+global variable:is that variable which is declared outside the function
+
+anonymous/lambda function:
+
+lambda parameter : expression
+
+lambda parameter1,parameter2 : expression
+
+
+map(): 
+
+map(function,*iterables)
+
+map(function,iterator1,iterator2,iterator3,........)
+
+filter():
+filter(func,iterable)
+
+
